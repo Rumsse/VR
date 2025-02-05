@@ -26,7 +26,7 @@ public class gnatscript : MonoBehaviour
     }
     private void TriggerHaptic(XRBaseInteractor interactor)
     {
-        interactor.GetComponentInParent<HapticImpulsePlayer>().SendHapticImpulse(amplitude: 1, duration: 70);
+        interactor.GetComponentInParent<HapticImpulsePlayer>().SendHapticImpulse(amplitude: 1, duration: 70); 
     }
 
 }
